@@ -35,9 +35,6 @@ public class reajuste{
                 System.out.println("Esse salário não consta no nosso sistema!! ");
             }
 
-   
-   
-   
         }
 
 }
