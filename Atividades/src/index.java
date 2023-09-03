@@ -1,3 +1,4 @@
+package Atividades.src;
 import java.util.Scanner;
 
 public class index{
