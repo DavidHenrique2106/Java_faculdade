@@ -7,8 +7,6 @@ public class laço{
         for(int c = 30; c>=1; c--)
         System.out.print(c + " ");
     }
-
-
 }
     
 
