@@ -1,4 +1,4 @@
-package Atividades.src;
+
 import java.util.Scanner;
 public class ternário {
     public static void main(String[] args){

@@ -1,4 +1,4 @@
-package Atividades.src;
+
 import java.util.Scanner;
 public class semana {
     public static void main(String[] ars){
