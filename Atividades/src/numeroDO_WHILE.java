@@ -18,7 +18,7 @@ public class numeroDO_WHILE {
             
         while (numero <= 0);
     
-        System.out.println("Número válido: " + numero);
+        System.out.println("Número válido -> " + (numero));
     
         }
     }
