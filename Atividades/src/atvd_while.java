@@ -21,6 +21,7 @@ public class atvd_while {
 
             if (media < 7) {
                 System.out.println("Você está reprovado!");
+                break;
             }
             
             else {
