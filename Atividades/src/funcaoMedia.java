@@ -14,13 +14,17 @@ public class funcaoMedia {
         System.out.println("Digite sua nota 3 -> ");
         int nota3 = ler.nextInt();
 
-        double media = calcularmedia(nota1,nota2,nota3);
+        double media = calcularMedia(nota1,nota2,nota3);
 
         System.out.println("Sua média é -> "+ (media));
 
+        desempenho(media);
+
+        aprovação(media);
+
     }
 
-    public static double calcularmedia(int a, int b, int c){
+    public static double calcularMedia(int a, int b, int c){
 
         int soma = (a + b + c);
         double media = soma /3;
@@ -28,4 +32,29 @@ public class funcaoMedia {
 
     }
 
+
+    public static void desempenho (double media) {
+
+        if (media >= 7.0) {
+            System.out.println("Ótimo desempenho! ");
+        }
+        else if (media >= 5.0) {
+            System.out.println("Bom desempenho! ");
+        }
+        else {
+            System.out.println("Necessita de melhoria! ");
+        }
+    }
+    
+
+        public static void aprovação (Double media){
+
+            if (media >= 7){
+                 System.out.println("Aprovado! ");
+            }
+
+            else{
+                System.out.println("Reprovado! ");
+            }
+        }
 }
